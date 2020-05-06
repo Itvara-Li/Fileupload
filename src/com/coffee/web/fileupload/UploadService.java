@@ -207,7 +207,7 @@ public class UploadService extends HttpServlet
 		public String charset = "UTF-8";
 	}
 	
-	// 从 af-service.xml 中获取配置
+	// 从 LW-service.xml 中获取配置
 	private void loadConfig() throws Exception
 	{		
 		InputStream stream = this.getClass().getResourceAsStream("/LW-service.xml");

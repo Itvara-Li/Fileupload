@@ -20,7 +20,7 @@ public class Uploader extends UploadHandler
 	@Override
 	public File getTmpDir()
 	{
-		// httpReq 在父类 AfUploadHandler里定义
+		// httpReq 在父类 UploadHandler里定义
 		String path = httpReq.getServletContext().getRealPath("/upload");
 		return new File( path);
 	}
